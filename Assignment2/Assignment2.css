@@ -1,0 +1,63 @@
+body
+    {background-image: url(images/WidgetCoLogo.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:auto;
+    width: 50%;}
+
+header
+    {margin-top: 5px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 15px solid black;
+    font-variant:small-caps; }
+    
+
+aside::first-line
+    {font-weight: bold;}
+
+aside
+    {text-align: right;
+    float:right;
+    padding-right: 15px;
+    border-right: 15px solid rgb(49, 66, 83);}
+
+h1
+    {text-align:left;
+    font-size: 45px;
+    width:80%;}
+    
+article
+    {padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;}
+    
+h2
+    {padding-top:10px;
+    font-style: italic;
+    text-align: center;}
+
+section
+    {border-style: solid;
+    border-width: 3px 3px 3px 30px;
+    border-color: green;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(245, 243, 223);}
+    
+footer
+    {margin-top: 15px;
+    padding-top: 5px;
+    text-align:  right;
+    color:grey;
+    font-style: italic;
+    border-top: 1px solid grey;
+    opacity: 75%;}
+    
+footer a:link
+    {color: rgb(99, 99, 99);
+    opacity: 75%;}
+    
